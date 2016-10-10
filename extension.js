@@ -32,7 +32,7 @@ function activate(context) {
 
             var changeDirectory = "cd "
 
-            if(process.platform == "win322")
+            if(/^win/i.test(process.platform))
                 changeDirectory = "cd /d ";
 
             //console.log(changeDirectory);
