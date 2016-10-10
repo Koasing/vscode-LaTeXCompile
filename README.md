@@ -34,6 +34,15 @@ You can configure some settings
 	"latexCompile.compiler": "xelatex"
 ```
 
+### Compiler Configuration ###
+* It is possilbe to provide full path to the compiler. Useful if the compiler is not in path environment variable.   
+```
+.vscode/settings.json:
+{
+    "latexCompile.compiler": "Z:\\my\\latex\\compiler\\bin\\latex.exe"
+}
+```
+
 ### Main Document Configuration ###
 A few notes...
 * This only works if you have a folder opened
